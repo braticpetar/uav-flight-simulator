@@ -1,0 +1,26 @@
+<head>
+<title>CS 4600 - Project 2</title>
+<script type="text/javascript" id="includedscript" src="project2.js"></script>
+<script type="text/javascript" id="givenscript" src="app.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body onmousemove="MoveUAV()" style="background-position: 571px 177px; background-size: 1600px;">
+<img id="shadow" src="shadow.png" style="transform: translate(0px) translate(571px, 177px) rotate(0deg) scale(1); filter: blur(0px);">
+<img id="uav" src="uav.png" style="transform: matrix(1, 0, 0, 1, 0, 0);">
+<img id="propeller0" class="propeller" src="propeller.png" style="transform: matrix(1, 0, 0, 1, 0, 0);">
+<img id="propeller1" class="propeller" src="propeller.png" style="transform: matrix(1, 0, 0, 1, 0, 0);">
+<img id="propeller2" class="propeller" src="propeller.png" style="transform: matrix(1, 0, 0, 1, 0, 0);">
+<img id="propeller3" class="propeller" src="propeller.png" style="transform: matrix(1, 0, 0, 1, 0, 0);">
+<div id="controls">
+	<table>
+		<tbody><tr><th>W / Arrow    Up</th><td>Zoom  in</td></tr>
+		<tr><th>S / Arrow  Down</th><td>Zoom out</td></tr>
+		<tr><th>A / Arrow  Left</th><td>Rotate counter-clockwise</td></tr>
+		<tr><th>D / Arrow Right</th><td>Rotate clockwise</td></tr>
+		<tr><th>Q / Page     Up</th><td>Increase altitude &amp; speed</td></tr>
+		<tr><th>E / Page   Down</th><td>Decrease altitude &amp; speed</td></tr>
+		<tr><th>H</th><td>Show/hide help</td></tr>
+	</tbody></table>
+</div>
+
+</body>
